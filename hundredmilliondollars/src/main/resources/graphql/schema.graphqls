@@ -1,0 +1,40 @@
+type Mutation {
+    loginValidation(id: ID!, password: String!) : LoginValidation
+    signUpRequest(id : ID!, password: String!) : SignUpRequest
+    chatRoomGenerationRequest(room_id: String!, participated_users : [String]!) : ChatRoomGenerationRequest
+    chatRoomFetchRequest(user_id : ID!) : ChatRoomFetchRequest
+    chatRoomReEnterRequest(room_id : String!) : ChatRoomReEnterRequest
+}
+
+type Query {
+    hello : String
+}
+
+type LoginValidation {
+    id: ID!
+    password: String!
+    validated: Boolean!
+}
+
+type SignUpRequest {
+    id: ID!
+    password: String!
+    succeeded : Boolean!
+}
+
+type ChatRoomGenerationRequest {
+    succeeded : Boolean!
+}
+
+type ChatRoomFetchRequest {
+    participated_chat_rooms : [String]!
+    succeeded: Boolean
+}
+
+type ChatRoomReEnterRequest {
+    message_info : [String]
+    succeeded : Boolean
+}
+
+
+
