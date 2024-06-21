@@ -1,0 +1,22 @@
+/Instance_key
+/SSL_Certificate
+hundredmilliondollarsfrontend/node_modules
+hundredmilliondollarsfrontend/.pnp
+hundredmilliondollarsfrontend.pnp.js
+hundredmilliondollarsfrontend.env
+# testing
+hundredmilliondollarsfrontend/coverage
+
+# production
+hundredmilliondollarsfrontend/build
+
+# misc
+hundredmilliondollarsfrontend/.DS_Store
+hundredmilliondollarsfrontend/.env.local
+hundredmilliondollarsfrontend/.env.development.local
+hundredmilliondollarsfrontend/.env.test.local
+hundredmilliondollarsfrontend/.env.production.local
+
+hundredmilliondollarsfrontend/npm-debug.log*
+hundredmilliondollarsfrontend/yarn-debug.log*
+hundredmilliondollarsfrontend/yarn-error.log*
