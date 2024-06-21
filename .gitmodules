@@ -1,3 +1,4 @@
 [submodule "hundredmilliondollarsfrontend"]
 	path = hundredmilliondollarsfrontend
 	url = https://github.com/YogiJung/Standader-FrontEnd.git
+	branch = main
